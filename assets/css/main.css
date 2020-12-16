@@ -33,6 +33,7 @@ body {
 	line-height: 1;
 }
 
+
 .inner > div {
 	font-size: 10px;
 	color: black;
@@ -134,9 +135,9 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p {
+	/* p {
 		margin: 0 0 2.25em 0;
-	}
+	} */
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #777;
@@ -2825,11 +2826,15 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: rgb(30, 30, 30);
 		border-top: 0;
-		color: #c0c0c0;
+		color: white;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
+	}
+
+	#footer > h3 {
+		color: white;
 	}
 
 		#footer .copyright {
